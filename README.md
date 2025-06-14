@@ -10,14 +10,19 @@ A command-line tool to analyze and summarize PDF resumes for ATS (Applicant Trac
 - **Rich CLI output** with color and tables
 
 ## Requirements
+Download Python
 - Python 3.8+ (download python by https://www.python.org/downloads/)
-- [PyPDF2](https://pypi.org/project/PyPDF2/)
-- [nltk](https://pypi.org/project/nltk/)
-- [rich](https://pypi.org/project/rich/)
+
 
 Install PIP
 ```bash
 python -m pip install --upgrade pip
+```
+
+Download
+```bash
+pip install git
+git clone https://github.com/Thanu10ekoon/ATS_Checker.git
 ```
 
 Install dependencies:
@@ -56,6 +61,11 @@ Mistakes / Issues Detected:
 - Only PDF files are supported.
 - The tool uses heuristics for name/profession detection and may not be 100% accurate.
 - For best results, use a simple, text-based resume format.
+
+## Dependencies
+- [PyPDF2](https://pypi.org/project/PyPDF2/)
+- [nltk](https://pypi.org/project/nltk/)
+- [rich](https://pypi.org/project/rich/)
 
 ## License
 MIT 
