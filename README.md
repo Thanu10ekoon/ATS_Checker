@@ -10,10 +10,15 @@ A command-line tool to analyze and summarize PDF resumes for ATS (Applicant Trac
 - **Rich CLI output** with color and tables
 
 ## Requirements
-- Python 3.8+
+- Python 3.8+ (download python by https://www.python.org/downloads/)
 - [PyPDF2](https://pypi.org/project/PyPDF2/)
 - [nltk](https://pypi.org/project/nltk/)
 - [rich](https://pypi.org/project/rich/)
+
+Install PIP
+```bash
+python -m pip install --upgrade pip
+```
 
 Install dependencies:
 ```bash
