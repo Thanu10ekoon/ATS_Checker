@@ -46,8 +46,8 @@ pip install -r requirements.txt
 ┃ Field      ┃ Value                                ┃
 ┡━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
 ┃ Name       ┃ John Doe                             ┃
-┃ Profession ┃ Software Engineer                   ┃
-┃ Skills     ┃ Python, Java, SQL                   ┃
+┃ Profession ┃ Software Engineer                    ┃
+┃ Skills     ┃ Python, Java, SQL                    ┃
 └────────────┴──────────────────────────────────────┘
 
 ATS Friendly: Yes (Score: 90/100)
